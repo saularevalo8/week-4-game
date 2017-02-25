@@ -1,4 +1,4 @@
-# week-4-game
+# Week 4 Game - Crystals Collector Game
 1. Create a new GitHub repo called week-4-game, then clone it to your computer.
 2. Inside the week-4-game folder, create the following: index.html, composer.json and index.php.
 3. Place the appropriate content in the composer.json and index.php files, so you can deploy your game to Heroku.
