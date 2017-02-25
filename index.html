@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRYSTALS COLLECTOR GAME</title>
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">CRYSTALS COLLECTOR GAME</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="jumbotron">
+            <p>You will be given a random number at the start of the game.
+                <br>
+                <br> There are four crystals above. By clicking on a crystal you will add a specific amount of points to you your total score.
+                <br>
+                <br> You win the game by matching you total score to random number, you lose the game if your total score goes above the random number.
+                <br>
+                <br> The value of each crystal is hidden from you until you click on it.
+                <br>
+                <br> Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+        <!-- Header with an id of click-me -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <img src="assets/Images/BlueCrystal.png" class="crystal-image" id="BlueCrystal">
+                    <img src="assets/Images/GreenCrystal.png" class="crystal-image" id="GreenCrystal">
+                    <img src="assets/Images/OrangeCrystal.png" class="crystal-image" id="OrangeCrystal">
+                    <img src="assets/Images/PurpleCrystal.png" class="crystal-image" id="PurpleCrystal">
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Number Generated: </h3>
+                        </div>
+                        <div class="panel-body" id="random-number">
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Your current score: </h3>
+                        </div>
+                        <div class="panel-body" id="total-score">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Wins: </h3>
+                        </div>
+                        <div class="panel-body" id="wins">
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Losses: </h3>
+                        </div>
+                        <div class="panel-body" id="losses">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Copyright &copy; 2017 Saul Arevalo</p>
+            </div>
+        </footer>
+        <script type="text/javascript " src="assets/javascript/game.js "></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js "></script>
+</body>
+
+</html>
